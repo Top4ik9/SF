@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sf</title>
+    <link rel="stylesheet" href="./css/zero.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container"> <!--блок который держит контент по центру в определенной ширине-->
+            <div class="nav__element">
+                <a href="">
+                    <img src="./img/nav__logo.svg" alt="Логотип">
+                </a>
+                <div class="nav__links">
+                    <a href="">О нас</a>
+                    <a href="">Миссия</a>
+                    <a href="">Для Кого</a>
+                    <a href="">Регистрация</a>
+                </div>
+                <a href="" class="nav__phone"><i class="fa-solid fa-phone"></i>+90-(543)-019-0370</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header__element">
+                <div class="header__info">
+                    <p>
+                        <i class="fa-solid fa-graduation-cap"></i>Открытый урок
+                    </p>
+                    <h1>
+                        Я-любитель полётов в космос
+                    </h1>
+                    <span>
+                        16 июня в 18:00
+                    </span>
+                </div>
+                <form class="header__form" action="">
+                    <h3>
+                        Забронируй участие
+                    </h3>
+                    <p>
+                        Научись летать и улети в космос
+                    </p>
+                    <input type="text" placeholder="Введите имя">
+                    <input type="email" placeholder="Введите email">
+                    <input type="tel" placeholder="Введите телефон" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+                    <button>
+                        Оставить заявку
+                    </button>
+                    <span>Ваши данные под защитой</span>
+                </form>
+            </div>
+        </div>
+    </header>
+    <script src="https://kit.fontawesome.com/fcc9ba3f37.js" crossorigin="anonymous"></script>
+</body>
+</html>
